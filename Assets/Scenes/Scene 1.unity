@@ -500,6 +500,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -625,6 +626,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf9ea4a67d29a041b1d5cc1176e9db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  target: {fileID: 1200250615}
+  smoothSpeed: 5
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &613965231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004844229}
   - component: {fileID: 1004844230}
+  - component: {fileID: 1004844231}
   m_Layer: 0
   m_Name: military_truck(1) (1)
   m_TagString: Untagged
@@ -1288,6 +1305,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1004844231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004844228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.8174644, y: 5.371101, z: 0.2}
+  m_Center: {x: 0.012853761, y: 1.3754836, z: 0}
 --- !u!1 &1131426930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1431,7 @@ GameObject:
   - component: {fileID: 1200250612}
   - component: {fileID: 1200250611}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Soap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1576,6 +1614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213798407}
   - component: {fileID: 1213798408}
+  - component: {fileID: 1213798409}
   m_Layer: 0
   m_Name: military_truck
   m_TagString: Untagged
@@ -1657,6 +1696,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1213798409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213798406}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.8094454, y: 2.689599, z: 0.19999973}
+  m_Center: {x: -0.0067755072, y: 0.040650096, z: 0}
 --- !u!1 &1311047166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +2468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676591428}
   - component: {fileID: 1676591429}
+  - component: {fileID: 1676591430}
   m_Layer: 0
   m_Name: military_tent
   m_TagString: Untagged
@@ -2489,6 +2550,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1676591430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676591427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.46979, y: 3.1708379, z: 0.20000005}
+  m_Center: {x: 4.713662, y: 0.1845822, z: 0}
 --- !u!1 &1822319261
 GameObject:
   m_ObjectHideFlags: 0
