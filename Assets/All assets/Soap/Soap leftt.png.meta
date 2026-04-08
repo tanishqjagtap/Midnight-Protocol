@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 8caa0d8179c9fe0449298ab62029044c
+guid: 55b860e7960b7524481b64742e7df3ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2688025676406028774
-    second: Soap back 2_0
+      213: -4042073181896053121
+    second: Soap leftt_0
+  - first:
+      213: 2845243804015543827
+    second: Soap leftt_1
+  - first:
+      213: -2553323191378084852
+    second: Soap leftt_2
+  - first:
+      213: 8780390244997797071
+    second: Soap leftt_3
+  - first:
+      213: 2129457569468388410
+    second: Soap leftt_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +112,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soap back 2_0
+      name: Soap leftt_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 40
         y: 17
-        width: 185
+        width: 189
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e97f456c19cd4520800000000000000
-      internalID: 2688025676406028774
+      spriteID: f7ee3fc5bdba7e7c0800000000000000
+      internalID: -4042073181896053121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap leftt_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 17
+        width: 189
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3164abd3a265c7720800000000000000
+      internalID: 2845243804015543827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap leftt_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 17
+        width: 189
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c7425e516c09cd0800000000000000
+      internalID: -2553323191378084852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap leftt_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 17
+        width: 189
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4166648663ad970800000000000000
+      internalID: 8780390244997797071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap leftt_4
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 17
+        width: 189
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a341e68806a5d8d10800000000000000
+      internalID: 2129457569468388410
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soap back 2_0: 2688025676406028774
+      Soap leftt_0: -4042073181896053121
+      Soap leftt_1: 2845243804015543827
+      Soap leftt_2: -2553323191378084852
+      Soap leftt_3: 8780390244997797071
+      Soap leftt_4: 2129457569468388410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

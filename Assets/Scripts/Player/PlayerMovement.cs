@@ -4,50 +4,34 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
 
-    public Sprite frontSprite;
-    public Sprite backSprite;
-    public Sprite leftSprite;
-    public Sprite rightSprite;
-
-    public GameObject bulletPrefab;
-    public Transform firePoint;
-
-    private SpriteRenderer sr;
     private Rigidbody2D rb;
+    private Animator animator;
     private Vector2 movement;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
-        // Input
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
+        // 🔥 INPUT (no sliding)
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        // Direction sprite
-        if (movement.x > 0)
-            sr.sprite = rightSprite;
-        else if (movement.x < 0)
-            sr.sprite = leftSprite;
-        else if (movement.y > 0)
-            sr.sprite = backSprite;
-        else if (movement.y < 0)
-            sr.sprite = frontSprite;
+        // Normalize so diagonal isn't faster
+        movement = movement.normalized;
 
-        // Shooting
-        if (Input.GetMouseButtonDown(0))
-        {
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        }
+        // 🎬 ANIMATION CONTROL
+        animator.SetFloat("moveX", movement.x);
+        animator.SetFloat("moveY", movement.y);
+        animator.SetFloat("speed", movement.sqrMagnitude);
     }
 
     void FixedUpdate()
     {
-        // Movement using physics (better)
+        // 🚀 MOVEMENT
         rb.linearVelocity = movement * speed;
     }
 }

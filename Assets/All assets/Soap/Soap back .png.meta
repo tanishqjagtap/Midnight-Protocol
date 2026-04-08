@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ff99b185e3a35f040b8e8b4547bb3867
+guid: 95723828cf553b94f897f75d55da073e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5687411295861469626
-    second: Soap front 1 _0
+      213: 3099240199066696557
+    second: Soap back _0
+  - first:
+      213: -9160633042502323624
+    second: Soap back _1
+  - first:
+      213: 6183969867555200413
+    second: Soap back _2
+  - first:
+      213: -1440430856584852848
+    second: Soap back _3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +109,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soap front 1 _0
+      name: Soap back _0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 49
         y: 17
-        width: 189
+        width: 160
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab1fd5db07ebdee40800000000000000
-      internalID: 5687411295861469626
+      spriteID: d6b3bf26a86b20b20800000000000000
+      internalID: 3099240199066696557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap back _1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 17
+        width: 160
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85271ff68c4eed080800000000000000
+      internalID: -9160633042502323624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap back _2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 17
+        width: 160
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dd85994dfd1d550800000000000000
+      internalID: 6183969867555200413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soap back _3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 17
+        width: 160
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8fb584cf820ce0800000000000000
+      internalID: -1440430856584852848
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soap front 1 _0: 5687411295861469626
+      Soap back _0: 3099240199066696557
+      Soap back _1: -9160633042502323624
+      Soap back _2: 6183969867555200413
+      Soap back _3: -1440430856584852848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

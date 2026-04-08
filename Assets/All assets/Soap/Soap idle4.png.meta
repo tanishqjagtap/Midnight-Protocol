@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2aa4566d0ca45494ab92a7a65726121d
+guid: 28a218506d3c33e4b88c4f6e1b56b97f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1433836332024438736
-    second: Soap left 1 _0
+      213: -5876316529213191305
+    second: Soap idle4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soap left 1 _0
+      name: Soap idle4_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 15
-        width: 161
-        height: 215
+        x: 68
+        y: 17
+        width: 152
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0df9d541c8206e310800000000000000
-      internalID: 1433836332024438736
+      spriteID: 77bcd703041237ea0800000000000000
+      internalID: -5876316529213191305
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soap left 1 _0: 1433836332024438736
+      Soap idle4_0: -5876316529213191305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
